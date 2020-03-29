@@ -40,7 +40,7 @@ class ProductsSeeder extends Seeder
         ]);
 
         \App\Models\Product::create([
-            'name' => 'Maxicana',
+            'name' => 'Mexicana',
             'category_id' => 1,
             'description' => 'Tomatoes, ham, chicken, mushrooms, chili pepper',
             'price' => '15'
